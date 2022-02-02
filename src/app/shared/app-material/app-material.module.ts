@@ -6,6 +6,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
 
 @NgModule({
   exports: [
@@ -16,6 +18,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatDialogModule,
     MatButtonModule,
     MatIconModule,
+    MatCheckboxModule,
+    MatRadioModule,
   ],
 })
 export class AppMaterialModule {}
